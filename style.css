@@ -1,0 +1,30 @@
+.wrapper{
+    margin: 0;
+    position: relative;
+    padding: 1rem;
+}
+.slider-btn{
+    padding: 1rem;
+}
+.slider-btn button{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.slider-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 5rem;
+    height: 10rem;
+    z-index: 1;
+    background: red;
+    display: none;
+}
+.slider-container .btn-2{
+    text-align: right;
+    height: 1.2rem;
+    width: 1.2rem;
+}
